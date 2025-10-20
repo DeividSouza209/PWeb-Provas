@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h4>
+                TodoList
+            </h4>
+        </div>
+        <p>Bom dia, <strong>Samuel Lima 😁</strong></p>
+    </header>
+
+    <main>
+
+        <form action="/action_page.php">
+            <label for="fname"><strong>Adicionar tarefas</strong></label>
+            <div class="Form1">
+                <input type="text" id="fname" name="fname" value="Nome da tarefa">
+                <button type="submit">Adicionar</button>
+            </div>
+        </form>
+            <div class="Form2">
+                <h3>Minhas tarefas</h3>
+                <p>10 de 20 <span class="colorir">concluidas</span></p>
+            </div>
+            <p>Veja todas as suas tarefas criada na plataforma</p>
+    </main>
+        <section class="lista-1">
+            <div class="task not-completed">
+                <div class="task-content">
+                    <h3>Estudar javascript</h3>
+                    <p>Criado em: 11 de out 2025</p>
+                </div>
+                <div class="task-actions">
+                    <button class="complete-btn">✔️</button>
+                    <button class="trash">🗑️</button>
+                </div>
+            </div>
+            <div class="task completed">
+                <div class="task-content">
+                    <h3>Estudar react js</h3>
+                    <p>Criado em: 11 de out 2025</p>
+                </div>
+                <div class="task-actions">
+                    <button class="complete-btn">✔️</button>
+                    <button class="trash">🗑️</button>
+                </div>
+            </div>
+            <div class="task not-completed">
+                <div class="task-content">
+                    <h3>Criarmeu site</h3>
+                    <p>Criado em: 11 de out 2025</p>
+                </div>
+                <div class="task-actions">
+                    <button class="complete-btn">✔️</button>
+                    <button class="trash">🗑️</button>
+                </div>
+            </div>
+            <div class="task not-completed">
+                <div class="task-content">
+                    <h3>Estudar docker</h3>
+                    <p>Criado em: 18 de out 2025</p>
+                </div>
+                <div class="task-actions">
+                    <button class="complete-btn">✔️</button>
+                    <button class="trash">🗑️</button>
+                </div>
+            </div>
+        </section>
+</body>
+</html>
